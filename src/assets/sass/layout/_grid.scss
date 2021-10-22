@@ -1,0 +1,78 @@
+.container {
+    width: 96rem;
+    display: flex;
+    flex-direction: column;
+   
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.peg-letter{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid  #ccc;
+}
+
+.list-one,
+.list-two
+.list-three,
+.list-four,
+.list-seven,
+.list-eight,
+.list-nine,
+.list-ten
+
+{
+    display: none;
+}
+
+.show-one, 
+.show-two,
+.show-three,
+.show-four,
+.show-seven,
+.show-eight,
+.show-nine,
+.show-ten
+ {
+    display: none;
+}
+
+.hide-one,
+.hide-two,
+.hide-three,
+.hide-four,
+.hide-seven,
+.hide-eight,
+.hide-nine,
+.hide-ten
+{
+    display: none;
+}
+
+
+.show {
+    display: inline-block;
+}
+
+
+@media  (max-width: 700px){
+    .container {
+        width: 100%;
+    }
+
+    .peg-letter {
+        flex-direction: column;
+        border-bottom: none;
+    }
+
+    .peg {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ul {
+        border-bottom: 2px solid #ccc;
+    }
+}

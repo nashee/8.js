@@ -1,0 +1,75 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *::after , *::before {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1.5rem;
+    background-color: white;
+}
+
+ul {
+    list-style: none;
+    border-right: 2px solid #ccc;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.8rem;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+// font size
+h1 {
+    font-size: 4rem;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+
+ul li {
+    font-size: 3rem;
+    font-style: oblique;
+    font-weight: 700;
+    text-align: center;
+}
+
+button {
+    font-size: 1.7rem;padding: .6rem 1.2rem;
+   // background-color: darkgreen;
+    color: black;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+}
+
+ul {
+    display: none;
+}
+
+
+@media  (max-width: 700px){
+     ul li {
+         text-align: center;
+         
+     }
+
+     h1 {
+         text-align: center;
+     }
+     
+    
+
+
+}
